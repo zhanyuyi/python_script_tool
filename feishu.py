@@ -122,4 +122,4 @@ if __name__ == '__main__':
         'https://open.feishu.cn/open-apis/bot/v2/hook/27ad77b0-1726-485e-a5fb-b71dbf81b088',  # X-MOM
     ]
     target_url = create_result['data']['obj_url']
-    send_feishu_message(wehhook_urls, f'<at user_id="all">所有人</at> 温馨提示 - 请在 18:00 前完成日报填写了哈 \n{target_url}')
+    send_feishu_message(wehhook_urls, f'<at user_id="all">所有人</at> 温馨提示 - 请在 18:00 前完成日报填写哈 \n{target_url}')
